@@ -1,0 +1,15 @@
+.header {
+    background: $body-background;
+    color: $off-red;
+    padding: $m-size 0;
+}
+
+// using BEM 
+.header__title {
+    font-size: $xl-size;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+

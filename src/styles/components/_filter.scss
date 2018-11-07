@@ -1,0 +1,10 @@
+.filter {
+  background: $body-background;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto 0 auto;
+}
+
+.filter__itemCount {
+  margin-right: 1rem;
+}

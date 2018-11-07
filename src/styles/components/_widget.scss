@@ -1,0 +1,28 @@
+// component
+.widget {
+    background: white;
+    margin-bottom: $xl-size;
+}
+
+// widget header
+
+.widget__header {
+    background: $off-white;
+    color: $off-black;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+
+.widget-header__title {
+    margin: 0;
+}
+
+.widget__message {
+    border-bottom: 0.1rem solid lighten($light-blue, 10%);
+    color: $off-black;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+// Button
+.button {
+    background: $purple;
+    border: none; 
+    // sass function darken - darkens the specified color by X %
+    border-bottom: 0.3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+// Big Button modfier
+.button--big-button {
+    font-weight: bold;
+    font-size: $l-size;
+    font-weight: 600;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+    
+    @media (min-width: $desktop-breakpoint) {
+        margin-bottom: $xl-size;
+    }
+}
+
+.button--big-button:disabled {
+    opacity: 0.5;
+}
+
+// Link Button Modifier 
+.button--link {
+    border: none;
+    background: none; 
+    color: $off-white;
+    padding: 0;
+}
+
+.button--check {
+  color: $light-grey;
+}
+
+.button--finished {
+  color: red;
+}

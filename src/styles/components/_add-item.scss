@@ -1,0 +1,36 @@
+
+.add-option__error {
+    color: $off-grey;
+    font-style: italic;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+}
+
+// Add Option
+.add-item {
+    display: flex;
+    flex-direction: column;
+    padding: $s-size;
+}
+
+.add-item__input {
+    background: $body-background;
+    border: none;
+    border-bottom: 0.3rem solid darken($body-background, 6%);
+    color: $off-grey;
+    //takes up all the available width but doestn change button width
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+    padding: $s-size;
+    width: 100%;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .add-item {
+        flex-direction: row;
+    }
+
+    .add-item__input {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.item__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+    border-bottom: 0.2rem solid $body-background;
+    display: flex;
+    justify-content: space-between;
+    padding: $l-size $m-size;
+}
+
+.item__text {
+    color: $off-grey;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    word-break: break-all;
+}
+
+.item--finished {
+  order: 1;
+  background-color: $light-grey;
+  text-decoration: line-through;
+
+  .item__text { 
+    color: white;
+  }
+  
+  .button--check {
+    color: green;
+  }
+}
